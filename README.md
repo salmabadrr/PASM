@@ -5,14 +5,14 @@
 # Required Python packages
 **Biopython, numpy, matplotlib**
 
-# Algorithms :
+# Algorithms
 Global alignment: Needleman–Wunsch
 Distance model: Kimura 2-Parameter (K80/K2P)
 Tree construction: Unweighted Pair Group Method with Arithmetic Mean (UPGMA) algorithm
 Conservation scoring: Shannon entropy
 Tree validation: Bootstrap analysis
 
-# How to run the program:
+# How to run the program
 **Input: The user can input a FASTA file of sequences and use the file_to_folder() function to convert the file to a folder of FASTA files of one sequence or directly use a folder as input.**
 In Line 13
 path = "specify path to save the folder"
