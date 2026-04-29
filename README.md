@@ -1,6 +1,6 @@
 # PASM- phylogenetic analysis-MSA statistics-mutation identification
 
-**PASM is a python program that builds a phylogenetic tree, calculates multiple sequence alignment statistics, and identifies key mutations. It performs Needleman–Wunsch global alignment, builds the distance matrix with the kimura-2 [k80] model and constructs the phylogenetic tree using the UPGMA algorithm. The conservation score and the key mutations identified from the multiple sequence alignment file are calculated, and the accuracy of the phylogenetic tree is validated by implementing the bootstrap method. The program is useful for biologists and bioinformaticians in viral evolution studies.**
+PASM is a python program that builds a phylogenetic tree, calculates multiple sequence alignment statistics, and identifies key mutations. It performs Needleman–Wunsch global alignment, builds the distance matrix with the kimura-2 [k80] model and constructs the phylogenetic tree using the UPGMA algorithm. The conservation score and the key mutations identified from the multiple sequence alignment file are calculated, and the accuracy of the phylogenetic tree is validated by implementing the bootstrap method. The program is useful for biologists and bioinformaticians in viral evolution studies.
 
 # Required Python packages
 **Biopython, numpy, matplotlib**
@@ -32,10 +32,10 @@ In line 656:
 stats=Statistics("enter the path of the multiple sequence alignment file to calculate the alignment statistics (NAdata_MSAoutput2021.FASTA) or ()")
 
 # Project structure
-**The program is composed of 3 main classes 
+The program is composed of 3 main classes 
 Global alignment class (calculate the distance matrix)
 UPGMA class (construct phylogenetic tree)
-Statistics class (calculate all statistics, identify mutation, validate the tree [bootstrap], visualize the tree)**
+Statistics class (calculate all statistics, identify mutation, validate the tree [bootstrap], visualize the tree)
 
 # Output
-**phylogenetic tree, text file for alignment statistics, text file for the key mutation, FASTA file for the pairwise alignment if needed**
+phylogenetic tree, text file for alignment statistics, text file for the key mutation, FASTA file for the pairwise alignment if needed
