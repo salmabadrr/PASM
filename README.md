@@ -7,9 +7,13 @@
 
 # Algorithms
 Global alignment: Needleman–Wunsch
+
 Distance model: Kimura 2-Parameter (K80/K2P)
+
 Tree construction: Unweighted Pair Group Method with Arithmetic Mean (UPGMA) algorithm
+
 Conservation scoring: Shannon entropy
+
 Tree validation: Bootstrap analysis
 
 # How to run the program
