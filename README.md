@@ -14,8 +14,6 @@ Tree construction: Unweighted Pair Group Method with Arithmetic Mean (UPGMA) alg
 
 Conservation scoring: Shannon entropy
 
-Tree validation: Bootstrap analysis
-
 # How to run the program
 **Input: The user can input a FASTA file of sequences and use the file_to_folder() function to convert the file to a folder of FASTA files of one sequence or directly use a folder as input.**
 In Line 13
